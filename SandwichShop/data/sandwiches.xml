@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sandwiches>
+  <ingredients>
+    <ingredient id="b001" description="White Bread" stock="100" image="bread.png"/>
+    <ingredient id="b002" description="Bottom Bun" stock="23" image="bun-bottom.png"/>
+    <ingredient id="b003" description="Top Bun" stock="23" image="bun-top.png"/>
+    <ingredient id="m788" description="Burger" stock="118" image="burger.png"/>
+    <ingredient id="c911" description="American Cheese" stock="910" image="cheese.png"/>
+    <ingredient id="h002" description="Ham" stock="78" image="ham.png"/>
+    <ingredient id="m090" description="Mayo" stock="941" image="mayo.png"/>
+    <ingredient id="m091" description="Mustard" stock="1055" image="mustard.png"/>
+    <ingredient id="v988" description="Tomato" stock="53" image="tomato.png"/>
+    <ingredient id="v977" description="Lettuce" stock="85" image="lettuce.png"/>
+    <ingredient id="v872" description="Onion" stock="53" image="onion.png"/>
+  </ingredients>
+  <sandwiches>
+    <sandwich name="Cheeseburger" price="4.95">
+      <ingredient id="b002" quantity="1"/>
+      <ingredient id="m788" quantity="1"/>
+      <ingredient id="c911" quantity="1"/>
+      <ingredient id="b003" quantity="1"/>
+    </sandwich>
+    <sandwich name="Double Cheeseburger" price="6.95">
+      <ingredient id="b002" quantity="1"/>
+      <ingredient id="m788" quantity="2"/>
+      <ingredient id="c911" quantity="2"/>
+      <ingredient id="b003" quantity="1"/>
+    </sandwich>
+    <sandwich name="Panini" price="5.00" grilled="60">
+      <ingredient id="b001" quantity="1"/>
+      <ingredient id="h002" quantity="1"/>
+      <ingredient id="c911" quantity="1"/>
+      <ingredient id="m090" quantity="1"/>
+      <ingredient id="b001" quantity="1"/>
+    </sandwich>
+    <sandwich name="Dagwood" price="5.20">
+      <ingredient id="b001" quantity="1"/>
+      <ingredient id="h002" quantity="2"/>
+      <ingredient id="c911" quantity="1"/>
+      <ingredient id="m091" quantity="1"/>
+      <ingredient id="v988" quantity="2"/>
+      <ingredient id="m090" quantity="1"/>
+      <ingredient id="m788" quantity="1"/>
+      <ingredient id="v872" quantity="1"/>
+      <ingredient id="v977" quantity="2"/>
+      <ingredient id="b001" quantity="1"/>
+    </sandwich>
+    <sandwich name="Sparty" price="11.90" grilled="60">
+      <ingredient id="b001" quantity="1"/>
+      <ingredient id="m788" quantity="1"/>
+      <ingredient id="h002" quantity="1"/>
+      <ingredient id="c911" quantity="1"/>
+      <ingredient id="m091" quantity="1"/>
+      <ingredient id="v977" quantity="2"/>
+      <ingredient id="b001" quantity="1"/>
+    </sandwich>  </sandwiches>
+</sandwiches>
+
